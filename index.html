@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../12 - div e span/estilo.css">
+</head>
+
+<body>
+    <h2>O que são as DIV e SPAN?</h2>
+    <p>
+        No HTML, &lt;div&gt; e &lt;span&gt; são elementos de marcação amplamente utilizados para estruturar e estilizar
+        o conteúdo de uma página. Embora ambos sejam "contêineres" de conteúdo, eles têm propósitos e características
+        distintas.
+    </p>
+    <ol>
+        <li> &lt;div&gt; <strong>(Divisão)</strong>
+            <ul>
+                <li><strong>Bloco de nível:</strong> O elemento &lt;div&gt; é um elemento de "nível de bloco"
+                    (block-level), o que significa que ele ocupa a largura total de seu contêiner pai. Isso cria uma
+                    quebra de linha antes e depois do elemento, isolando-o visualmente de outros conteúdos.</li>
+                <li><strong>Estruturação de Layout:</strong> É usado para agrupar elementos relacionados, como seções,
+                    colunas e blocos de conteúdo maiores. Frequentemente, ele é usado em conjunto com CSS para criar
+                    layouts, pois permite organizar diferentes partes da página
+                <li>
+                    <strong>Exemplo de uso:</strong>
+                    <pre><code>
+&lt;div class="container"&gt;
+    &lt;h1&gt;Título da Seção&lt;h1&gt;
+    &lt;/p&gt;Parágrafo dentro da div.&lt;/p&gt;
+                        </code></pre>
+                </li>
+        </li>
+        <li><strong>Quando usar:</strong> Utilize &lt;div&gt; quando quiser agrupar elementos para criar uma seção maior
+            ou dividir a página em blocos maiores.</li>
+        </ul>
+        </li>
+        <li>&lt;span&gt; <strong>(Linha)</strong></li>
+        <ul>
+            <li><strong>Linha de nível (inline):</strong> O elemento &lt;span&gt; é de "nível de linha" (inline-level),
+                ou seja, ele não quebra a linha e ocupa apenas o espaço necessário para o seu conteúdo. Pode ser usado
+                dentro de parágrafos ou outros elementos de linha, sem afetar o layout geral.
+            </li>
+            <li><strong>Aplicação de Estilos Específicos:</strong> Geralmente, é usado para aplicar estilos ou
+                identificadores específicos a uma parte menor do conteúdo, como uma palavra ou frase dentro de um
+                parágrafo.</li>
+            <li>
+                <strong>Exemplo de uso:</strong>
+                <pre><code>
+&lt;p&gt;Este é um texto com uma &lt;span classe="destaque"&gt;palavra destacada&lt;span&gt; usando span.&lt;p&gt;
+                </code></pre>
+            </li>
+            <li><strong>Quando usar:</strong> O &lt;span&gt; é ideal para estilizar ou aplicar comportamentos
+                específicos a uma pequena parte do conteúdo sem afetar o layout.</li>
+        </ul>
+    </ol>
+    <h3>Resumo das Diferenças</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Propriedade</th>
+                <th><code>&lt;div&gt;</code></th>
+                <th><code>&lt;span&gt;</code></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tipo</td>
+                <td>Bloco</td>
+                <td>Linha</td>
+            </tr>
+            <tr>
+                <td>Quebra de linha</td>
+                <td>Sim</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td>Usos comuns</td>
+                <td>Estruturação de Layout e agrupamento</td>
+                <td>Estilizar texto inline ou pequenos conteúdos</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
